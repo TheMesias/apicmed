@@ -1,0 +1,77 @@
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type=number]{
+    width: auto;
+    height: 4rem;
+    text-align: center;
+    border-radius: .3em;
+}
+
+select{
+    width: auto;
+    height: 4rem;
+    font-size: 15px;
+}
+
+
+.inf-user {
+    background-color: rgba(226, 226, 226, 0.838);
+    height: 100%;
+    position: relative;
+}
+
+
+.consul-bold{
+    color: black;
+    font-weight: 700;
+}
+
+.datos-paciente{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    top: 40%;
+    left: 5%;
+    position: absolute;
+    border:  rgb(205, 206, 209);
+    border-style: solid;
+    text-align:center;
+}
+    
+
+.cedula{
+    width: 90%;
+    height: 10cm;
+    left: 15%;
+    position: absolute;
+}
+
+.inf-per-consul{
+    position: absolute;
+    text-align: center;
+    border-style: none;
+    width: 100%;
+    top: 35%;
+}
+
+.btn-historial{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    border-style: none;
+    bottom: 5%;
+}
+
+
+.btn{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.nombre-pac-consul{
+    top: 30%;
+    position: relative;
+    text-align: center;
+    color: rgb(141, 142, 145);
+}
