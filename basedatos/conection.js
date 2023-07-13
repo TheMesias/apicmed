@@ -1,7 +1,7 @@
 import Sequelize from "sequelize";
 
 //const host = '18.117.253.213'
-const host = 'localhost' //127.0.0.1
+const host = 'containers-us-west-79.railway.app' //127.0.0.1
 
 export const sequelize = new Sequelize(
   //Para la base de datos externa
@@ -22,16 +22,16 @@ export const sequelize = new Sequelize(
 
 
   //Base datos local Nixon
-  "dbtest", // db name,
+  "railway", // db name,
   //"dbtest_1", // db name,
   "postgres", // username
   //"wretopro", // password
-  "1234", // password
+  "rJuWGtu9mmo5rJbYubMP", // password
   {
     host: host, 
     dialect: "postgres",
+    port: 5910
   }
-
 
 
 );
